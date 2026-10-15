@@ -1,13 +1,15 @@
-# Eight BB(6) nonhalting proofs
+# BB(6): eight proofs submitted
 
-Five families, eight exact blank-start machines.
+Five pull requests cover eight distinct blank-start nonhalting results. All are awaiting review.
 
-- [recursive-bell](recursive-bell/README.md): 1 proof(s).
-- [sync-counter](sync-counter/README.md): 2 proof(s).
-- [spread-counter](spread-counter/README.md): 1 proof(s).
-- [bell-counter](bell-counter/README.md): 1 proof(s).
-- [chaotic-edge](chaotic-edge/README.md): 3 proof(s).
+[Combined Discord message](messages/combined.md) · [All write-ups ZIP](all-writeups.zip) · [All images ZIP](all-images.zip) · [All six messages ZIP](discord-messages.zip)
 
-[All write-ups](all-writeups.zip) · [All images](all-images.zip)
+| Group | PR | Message | Write-ups | Images |
+|---|---|---|---|---|
+| recursive-bell (1) | [#25](https://github.com/ccz181078/busycoq/pull/25) | [Draft](messages/recursive-bell.md) | [ZIP](recursive-bell/writeups.zip) | [ZIP](recursive-bell/images.zip) |
+| sync-counter (2) | [#24](https://github.com/ccz181078/busycoq/pull/24) | [Draft](messages/sync-counter.md) | [ZIP](sync-counter/writeups.zip) | [ZIP](sync-counter/images.zip) |
+| spread-counter (1) | [#26](https://github.com/ccz181078/busycoq/pull/26) | [Draft](messages/spread-counter.md) | [ZIP](spread-counter/writeups.zip) | [ZIP](spread-counter/images.zip) |
+| bell-counter (1) | [#28](https://github.com/ccz181078/busycoq/pull/28) | [Draft](messages/bell-counter.md) | [ZIP](bell-counter/writeups.zip) | [ZIP](bell-counter/images.zip) |
+| chaotic-edge (3) | [#27](https://github.com/ccz181078/busycoq/pull/27) | [Draft](messages/chaotic-edge.md) | [ZIP](chaotic-edge/writeups.zip) | [ZIP](chaotic-edge/images.zip) |
 
-The original formal proofs and proof sketches were produced with Claude (Anthropic); independent audit and submission preparation with GPT-6 Astra (OpenAI).
+Each group directory also contains individual Markdown write-ups and PNGs, with image captions in its README. Messages are prepared drafts; no Discord posting is implied.
